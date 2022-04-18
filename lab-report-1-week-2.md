@@ -4,7 +4,7 @@
 
 1. You should go to the [Visual Studio website](https://visualstudio.microsoft.com/downloads/) and download Visual Studio. Once you have it downloaded, go ahead and open the IDE. It should looks something like this:
 
-![Image](https://github.com/adityaiyerr/cse15l-lab-reports/blob/main/lab1image1)
+![Image](lab1image1.png)
 
 2. Now that you have VS Code installed and running, you are going to try remotely connecting to the servers that we have here. Since I am on a Macbook Pro, I will show you how to do this on MacOS. Assuming you know your course specific account for CSE 15L, open a new terminal in VS Code, using Ctrl + ', or clicking on Terminal -> New Terminal. You're going to type `$ ssh cs15lsp22zz@ieng6.ucsd.edu` replacing the "zz" with whatever your specific account code is. You will be asked to input your password (which you created when looking for your course specific account). After doing so, your terminal should look something like this:
 
