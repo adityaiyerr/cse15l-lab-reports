@@ -48,6 +48,8 @@ We start off by typing `$ ssh-keygen` into the terminal. The output will prompt 
 
 ![Image](lab1image5.png)
 
+![Image](lab1image7.png)
+
 
 ## Optimizing Remote Running
 Almost there! We're now going to omptimize remote running. We can make this process easier by using semicolons to run multiple commands on the same line. An example of this is using `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`. If you try the command mentioned, then it should look like this:
