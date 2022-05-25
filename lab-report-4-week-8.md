@@ -1,10 +1,10 @@
-## Lab Report 4
+# Lab Report 4
 
-# [Link to the Markdown Repository I used, written by Davit Margarian](https://github.com/UDXS/markdown-parser)
+## [Link to the Markdown Repository I used, written by Davit Margarian](https://github.com/UDXS/markdown-parser)
 
-# [Link to the reviewed Markdown Repository](https://github.com/canitry/cse15l-lab-reports)
+## [Link to the reviewed Markdown Repository](https://github.com/canitry/cse15l-lab-reports)
 
-# For Snippet 1:
+## For Snippet 1:
 
 Using VSCode Preview, I expected there to be an error since the first url did not show up as a hyperlink.
 
@@ -40,7 +40,7 @@ at MarkdownParseTest.backTicks(MarkdownParseTest.java:65)`
 
 The change to the code can be implemented in 10 lines or less because the only significant change you would have to make is to account for the backticks, which would only require adding an if statement checking for any backticks in the line.
 
-# For Snippet 2:
+## For Snippet 2:
 
 Using VSCode preview and Github, I expected that the nested link in the first example of this snippet would show but the normal link in that same line wouldn't show.
 
@@ -74,7 +74,7 @@ at MarkdownParseTest.nestedLinks(MarkdownParseTest.iava:78)`
 
 This change would most likely take more than 10 lines of code because it would require a new addition to the MarkdownParse file which accounts for the position of the nested url and also check for different separators (and the contents between them) within the line to make sure that the tester gets to all of the urls.
 
-# Snippet 3
+## Snippet 3
 Using VSCode preview and Github, I expected only the second url to work, because it has an https:// before the url, which both Github and VSCode preview see as a url. Otherwise, all of the urls would have failed.
 
 Test Code:
