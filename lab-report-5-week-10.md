@@ -10,3 +10,6 @@ As shown in Lab 9, the following ahs an example of what the vimdiff command look
 For Test 201, my implementation was correct, outputting `[]` , while the provided implementation outputted `[baz]`. Using VSCode preview, I know that there should be no link showing in the output, because there are no links in the actual test file.
 
 The outputs of both files can be seen here, with my implementation showing a `[]` while the given implementation showing `[baz]`.
+![Image](lab5image3.png)
+![Image](lab5image4.png)
+
