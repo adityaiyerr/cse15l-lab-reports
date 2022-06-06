@@ -23,3 +23,10 @@ The provided implementation recognized the open and closing parentheses and assu
 For Test 14, my implementation was correct, outputting `[]`, while the provided implementation outputted `[foo]`. Using VSCode preview, I know that there should be no link outputted because there are no links within the test file itself.
 
 The outputs of both files are shown here:
+![Image](lab5image6.png)
+![Image](lab5image7.png)
+
+VSCode preview shows what links it should produce:
+![Image](lab5image5.png)
+
+The provided implementation does not check for backslashes, so by making it check for backslashes, it can skip over those and move on to find the rest of the link within the parentheses. This is similar to the fix made to check for backticks in a previous lab, only now it is checking for backslashes instead.
