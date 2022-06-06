@@ -18,6 +18,8 @@ VSCode preview shows what it should produce:
 
 The provided implementation recognized the open and closing parentheses and assumed that the contents inside were a link. However, this was not the case for test 201. A fix for this problem would be to make the implementation check for the closing bracket and opening parenthesis right after one another and then look for the closing parenthesis to make sure that there are characters (that aren't white spaces) between the closing bracket and opening parenthesis.
 
+Using my lab mate, Davit Margarian's markdown parser, I can identify that the fix to the code can be implemented within the
+
 # [Test 14.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/14.md)
 
 For Test 14, my implementation was correct, outputting `[]`, while the provided implementation outputted `[foo]`. Using VSCode preview, I know that there should be no link outputted because there are no links within the test file itself.
