@@ -18,7 +18,8 @@ VSCode preview shows what it should produce:
 
 The provided implementation recognized the open and closing parentheses and assumed that the contents inside were a link. However, this was not the case for test 201. A fix for this problem would be to make the implementation check for the closing bracket and opening parenthesis right after one another and then look for the closing parenthesis to make sure that there are characters (that aren't white spaces) between the closing bracket and opening parenthesis.
 
-Using my lab mate, Davit Margarian's markdown parser, I can identify that the fix to the code can be implemented within the
+Using my lab mate, Davit Margarian's markdown parser, I can identify that the fix to the code can be implemented within the following code block:
+![Image](lab5image8.png)
 
 # [Test 14.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/14.md)
 
@@ -32,3 +33,6 @@ VSCode preview shows what links it should produce:
 ![Image](lab5image5.png)
 
 The provided implementation does not check for backslashes, so by making it check for backslashes, it can skip over those and move on to find the rest of the link within the parentheses. This is similar to the fix made to check for backticks in a previous lab, only now it is checking for backslashes instead.
+
+Similar to the last test, the change implementation would be in the same section of the code, specifically in the while loop, checking for any abnormalities in the url.
+![Image](lab5image8.png)
