@@ -6,3 +6,5 @@ As shown in Lab 9, the following ahs an example of what the vimdiff command look
 ![Image](lab5image1.png)
 
 # [Test 201.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
+
+For Test 201, my implementation was correct, outputting `[]` , while the provided implementation outputted `[baz]`. Using VSCode preview, I know that there should be no link showing in the output, because there are no links in the actual test file.
